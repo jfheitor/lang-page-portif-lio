@@ -323,7 +323,7 @@ article.pagina-3 .meu-servico{
     }
     
     .tamanho-do-fundo{
-        height: var(--imagem-rodape-menor);
+        height: var(--imagem-rodape-menor, 30px);
     }
     
     .container-imagem .texto-rodape p{

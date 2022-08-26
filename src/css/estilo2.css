@@ -2,6 +2,7 @@
     --cor-padrao: #ffccff;
     --imagem-rodape: 60px;
     --imagem-rodape-menor: 30px;
+    --tamanho-da-fonte: 20px;
 }
 
 header{
@@ -74,7 +75,7 @@ article.pagina-1{
     align-items: center;
 }
 
-.pagina-1 .perfil{
+.pagina-1 .perfil, .pagina-4 .perfil{
     margin: 30px;
     height: 230px;
     width: 230px;
@@ -84,7 +85,7 @@ article.pagina-1{
     background-size: cover;
 }
 
-.pagina-1 .meu-nome{
+.pagina-1 .meu-nome, .pagina-4 .meu-nome{
     font-size: 22px;
     margin: 20px;
     color: var(--cor-padrao, #fcf);
@@ -99,6 +100,7 @@ article.pagina-2{
     background-color:rgb(3, 78, 97);
     height: 600px;
     position: relative;
+    color: var(--cor-padrao, #fcf);
 }
 
 .pagina-2 .container-foto{
@@ -125,13 +127,14 @@ article.pagina-2{
     height: 100%;
     width: 100%;
 }
+
 .container-apresentacao .texto-apresentacao{
     font-size: 20px;
+    text-align: justify;
+    text-indent: 20px;
     padding: 15px 30px;
     width: 100%;
     height: auto;
-    text-align: justify;
-    text-indent: 20px;
 }
 
 .container-apresentacao .texto-apresentacao a:hover, .menu a:active{
@@ -143,6 +146,7 @@ article.pagina-2{
 .container-apresentacao .sobre-mim{
     text-align: center;
     color: rgb(218, 92, 92);
+    padding-top: 15px;
 }
 
 .texto-apresentacao, a{
@@ -273,4 +277,50 @@ article.pagina-3{
 div.vazia{
     height: 60px;
     background-color:rgb(3, 78, 97);
+    }
+
+    article.pagina-4{
+        background-color:rgb(8, 113, 139);
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .pagina-perfil-lateral{
+        left:0;
+        width: 25%;
+        position: absolute;
+    }
+    
+    .pagina-portifolio{
+        right:0;
+        width:75%;
+        position: absolute;
+    }
+
+    .pagina-portifolio .portifolio-site{
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        background-color: rgb(218, 92, 92);
+    }
+
+    .portifolio-site .px-1{}
+    .portifolio-site .px-2{}
+    .portifolio-site .px-3{}
+    .portifolio-site .px-4{}
+    .portifolio-site .px-5{}
+    .portifolio-site .px-6{}
+
+    article.pagina-5{
+        background-color:rgb(18, 105, 126);
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
     }
