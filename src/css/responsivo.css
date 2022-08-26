@@ -1,0 +1,369 @@
+@media(max-width:1250px) {
+    .rodape-container{
+    overflow-y: auto;
+    max-width: auto;
+    }
+}
+@media(max-width: 900px)  {
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.container-inicio .menu li{
+    font-size: 19px;
+}
+
+.menu a{
+    margin: 10px;
+    padding: 10px;
+}
+
+article.pagina-1{
+    max-height: 220px;
+    margin: auto;
+    width: 100%;
+}
+
+.pagina-1 .perfil{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.pagina-1 .meu-nome{
+    font-size: 16px;
+    margin: 0px 10px;
+    color: #fff;
+}
+
+article.pagina-2{
+    margin: auto;
+    height: 400px;
+}
+
+.container-apresentacao .sobre-mim{
+    margin: 5px;
+    font-size: 14px;
+}
+
+.container-apresentacao .texto-apresentacao{
+    font-size: 17px;
+    padding: 5px 10px;
+    height: 170px;
+    text-indent: 10px;
+}
+
+.btn{
+    margin: 10px;
+}
+
+.btn-portifólio{
+    padding: 5px;
+    font-size:12px;
+}
+
+.lado{
+    font-size: 17px;
+    margin: 10px 3px;
+    padding: 10px 3px;
+    line-height:none;
+    border: solid 2px rgb(218, 92, 92);
+    height: auto;
+}
+
+
+article.pagina-3 .meu-servico{
+    padding: 10px 0px 0px 10px;
+    height: 65px; 
+    font-size: 14px;
+}
+
+.rodape-container{
+    margin: 0px 5px 10px 5px;
+}
+
+.container-imagem{
+    width: 300px;
+    height: 300px;
+}
+
+.container-imagem .imagem-rodape{
+    padding: 5px;
+    height: 50px;
+    width: 280px;
+}
+
+.imagem-rodape .fundo-1{
+    background-image: url(../img/logo1-rodape.png);
+    background-size: cover;
+    height: 50px;
+}
+
+.imagem-rodape .fundo-2{
+    background-image: url(../img/logo2-rodape.png);
+    background-size: cover;
+    height: 50px;
+}
+
+.imagem-rodape .fundo-3{
+    background-image: url(../img/logo3-rodape.png);
+    background-size: cover;
+    height: 50px;
+}
+
+.imagem-rodape h3{
+    padding-top: 5px;
+}
+
+.container-imagem .texto-rodape p{
+    font-size: 14px;
+    margin: 10px;
+    padding: 20px;
+    height: 200px;
+    width: 270px;
+    text-indent: 10px;
+}
+}
+
+@media(max-width: 700px)  {
+
+    .inicio h1{
+        font-size:20px;
+    }
+
+    .container-inicio .menu li{
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .menu a{
+        text-decoration: none;
+        color: #fcf;
+        cursor: pointer;
+        margin: 5px;
+        padding: 3px;
+    }
+    
+    article.pagina-1{
+        height: 200px;
+        display: flex;
+    }
+    
+    .pagina-1 .perfil{
+        margin: 10px;
+        height: 120px;
+        width: 120px;
+    }
+
+    .pagina-1 .meu-nome{
+        font-size: 13px;
+        margin: 5px;
+    }
+
+    article.pagina-2 .container-apresentacao .sobre-mim{
+        margin: 5px;
+        font-size: 14px;
+    }
+    
+    .pagina-2 .container-apresentacao{
+        width: 80%;
+    }
+    .container-apresentacao .texto-apresentacao{
+        font-size: 14px;
+        padding: 5px 10px;
+        max-height: 170px;
+        text-indent: 10px;
+    }
+    
+    .pagina-2 .container-foto{
+        width: 20%;
+    }
+
+    .lado{
+        font-size: 13px;
+        margin: 5px;
+        padding: 5px;
+        line-height:none;
+        border: solid 2px rgb(218, 92, 92);
+        height: auto;
+    }
+
+    article.pagina-3{
+        margin: 0 auto;
+        height: auto;
+        display: block;
+    }
+    
+    .pagina-3 .meu-servico{
+        padding: 10px 0px 0px 10px;
+        height: 65px; 
+        color:#fcf;
+        font-size: 14px;
+    }
+    
+    .rodape-container{
+        display: block;
+        width: 100%;
+        margin: 0px 5px 10px 5px;
+        padding: 10px;
+        gap: 10px;
+        overflow-y: none;
+    }
+    
+    .container-imagem{
+        width: 95%;
+        height: 170px;
+    }
+    
+    .container-imagem .imagem-rodape{
+        color: #fcf;
+        height: 60px;
+        width: 98%;
+    }
+    
+    .tamanho-do-fundo{
+        height: var(--imagem-rodape);
+    }
+
+    .container-imagem .texto-rodape{
+    padding-left: 5px;
+    }
+
+    .container-imagem .texto-rodape p{
+        font-size: 14px;
+        margin: 10px;
+        padding: 20px;
+        height: auto;
+        width: 95%;
+        text-indent: 10px;
+    }
+}
+
+@media(max-width:530px)  {
+    
+
+    .container-inicio .menu{
+        top:20px;
+        left:none;
+        transform: none;
+        right:0;
+        width: auto;
+    }
+
+    .container-inicio .menu li{
+        display: block;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .menu a{
+        margin:0;
+        padding:0px 60px;
+    }
+  
+
+    article.pagina-1{
+        height: 160px;
+    }
+
+    .pagina-1 .perfil{
+        margin: 10px;
+        height: 80px;
+        width: 80px;
+    }
+
+    article.pagina-2 .container-apresentacao .sobre-mim{
+        margin: 5px 10px;
+        }
+    
+    .pagina-2 .container-apresentacao{
+        width: 100%;
+    }
+
+    .container-apresentacao .texto-apresentacao{
+        padding: 5px 10px;
+        max-height: 170px;
+    }
+    
+    .pagina-2 .container-foto{
+        width: 0%;
+    }
+
+    article.pagina-3{
+        margin: 0 auto;
+        height: auto;
+        display: block;
+    }
+    
+    .pagina-3 .meu-servico>p,h2{
+        height: 20px; 
+        font-size: 15px;
+    }
+    
+    .rodape-container{
+        padding: 5px;
+        gap: 10px;
+    }
+    
+    .container-imagem{
+        width: 95%;
+        height: 120px;
+    }
+    
+    .container-imagem .imagem-rodape{
+        color: #fcf;
+        margin: 5px;
+        padding: 5px;
+        height: 30px;
+        width: 98%;
+    }
+    
+    .tamanho-do-fundo{
+        height: var(--imagem-rodape-menor);
+    }
+    
+    .container-imagem .texto-rodape p{
+        font-size: 13px;
+        margin: 5px;
+        padding: 5px;
+        height: 80px;
+        line-height: 12px;
+    }
+
+}
+   
+@media(max-width:375px)  {
+
+        article.pagina-1{
+        height: 140px;
+        display: flex;
+    }
+    
+    .pagina-1 .perfil{
+        margin: 5px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .pagina-1 .meu-nome>h2,h3{
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    article.pagina-2{
+        height: 350px;
+    }
+
+    .lado{
+        margin-top: 40px;
+        line-height: 15px;
+    }
+
+    .btn{
+        display: none;
+    }
+}

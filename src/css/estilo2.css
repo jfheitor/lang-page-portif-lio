@@ -1,0 +1,276 @@
+:roat{
+    --cor-padrao: #ffccff;
+    --imagem-rodape: 60px;
+    --imagem-rodape-menor: 30px;
+}
+
+header{
+height: 130px;
+background-color:rgb(3, 78, 97);
+}
+
+.container-inicio{
+    position: relative;
+    height: 110px;
+}
+
+.container-inicio .inicio{
+position: absolute;
+top:55px;
+transform: translateY(-50%);
+left:0;
+margin:10px;
+padding: 25px;
+border-radius: 50%;
+color: var(--cor-padrao, #fcf);
+background-color:rgb(218, 92, 92);
+text-align: center;
+}
+
+.inicio h1{
+    font-size:35px;
+}
+
+.container-inicio .menu{
+position: absolute;
+right:10px;
+top:40px;
+transform: translateY(50%);
+text-transform: uppercase;
+}
+
+.container-inicio .menu li{
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 24px;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: var(--cor-padrao, #fcf);
+    cursor: pointer;
+    margin: 20px;
+    padding:30px;
+}
+
+.menu a:hover, .menu a:active{
+    border-radius: 30px;
+    background-color:rgb(218, 92, 92);
+    transition: .3s;
+    color:#111;
+}
+
+main{
+    height:auto;
+}
+
+article.pagina-1{
+    background-color:rgb(8, 113, 139);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.pagina-1 .perfil{
+    margin: 30px;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    background-image: url(../img/perfil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pagina-1 .meu-nome{
+    font-size: 22px;
+    margin: 20px;
+    color: var(--cor-padrao, #fcf);
+    text-align: center;
+}
+
+.meu-nome h2{
+    color: rgb(218, 92, 92);
+}
+
+article.pagina-2{
+    background-color:rgb(3, 78, 97);
+    height: 600px;
+    position: relative;
+}
+
+.pagina-2 .container-foto{
+    background-color:rgb(218, 92, 92);
+    position: absolute;
+    left:0;
+    height: 100%;
+    width: 30%;
+}
+
+.pagina-2 .container-apresentacao{
+    position: absolute;
+    right:0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-foto .foto-apresentacao{
+    background-image: url(../img/perfil-3.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.container-apresentacao .texto-apresentacao{
+    font-size: 20px;
+    padding: 15px 30px;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.container-apresentacao .texto-apresentacao a:hover, .menu a:active{
+    border-radius: 30px;
+    background-color:rgb(218, 92, 92);
+    transition: .2s;
+    color:#111;
+}
+.container-apresentacao .sobre-mim{
+    text-align: center;
+    color: rgb(218, 92, 92);
+}
+
+.texto-apresentacao, a{
+    color: var(--cor-padrao, #fcf);
+    text-decoration: none;
+}
+.btn{
+    margin: 30px;
+    display: inline-block;
+}
+
+.btn-portifólio{
+    background-color: var(--cor-padrao, #fcf);
+    width: auto;
+    color:rgb(8, 113, 139);
+    padding: 15px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.btn-portifólio a{
+    text-decoration:none;
+    color:rgb(224, 20, 20);
+}
+
+.informacoes-pessoais{
+    height: auto;
+    position: relative;
+}
+
+.lado{
+    margin: 0px 20px;
+    padding:35px 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-padrao, #fcf);
+    background-color:rgb(8, 113, 139);
+    border: solid 5px rgb(218, 92, 92);
+    border-radius: 12px;
+    height: 200px;
+    width: 48%;
+    }
+
+.lado.esquerdo{
+    position: absolute;
+    left: 0;
+
+}
+    
+.lado.direito{
+    position: absolute;
+    right: 0;
+}
+
+article.pagina-3{
+    background-color:rgb(32, 65, 73);
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+.pagina-3 .meu-servico{
+    padding: 30px 0px 0px 30px;
+    height: 100px; 
+    color: var(--cor-padrao, #fcf);
+}
+
+
+.rodape-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0px 20px 15px 20px;
+    gap: 10px;
+}
+
+.container-imagem{
+    background-color:rgb(8, 113, 139);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 380px;
+}
+
+.container-imagem .imagem-rodape{
+    color: var(--cor-padrao, #fcf);
+    margin: 5px;
+    padding: 20px 5px 5px 15px;
+    height: 100px;
+    width: 380px;
+}
+
+.imagem-rodape .fundo-1{
+    background-image: url(../img/logo1-rodape.png);
+    height: 70px;
+}
+
+.imagem-rodape .fundo-2{
+    background-image: url(../img/logo2-rodape.png);
+    height: 70px;
+}
+
+.imagem-rodape .fundo-3{
+    background-image: url(../img/logo3-rodape.png);
+    height: 70px;
+}
+.imagem-rodape h3{
+    padding-top: 20px;
+}
+
+
+.container-imagem .texto-rodape p{
+    background-color: var(--cor-padrao, #fcf);
+    color: rgb(3, 78, 97);
+    font-size: 20px;
+    margin: 20px;
+    padding: 15px;
+    height: 230px;
+    width: 360px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+div.vazia{
+    height: 60px;
+    background-color:rgb(3, 78, 97);
+    }
