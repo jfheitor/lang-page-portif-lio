@@ -1,4 +1,4 @@
-:roat{
+:root{
     --cor-padrao: #ffccff;
     --imagem-rodape: 60px;
     --imagem-rodape-menor: 30px;
@@ -23,7 +23,7 @@ left:0;
 margin:10px;
 padding: 25px;
 border-radius: 50%;
-color: var(--cor-padrao, #fcf);
+color: var(--cor-padrao);
 background-color:rgb(218, 92, 92);
 text-align: center;
 }
@@ -49,7 +49,7 @@ text-transform: uppercase;
 
 .menu a{
     text-decoration: none;
-    color: var(--cor-padrao, #fcf);
+    color: var(--cor-padrao);
     cursor: pointer;
     margin: 20px;
     padding:30px;
@@ -88,7 +88,7 @@ article.pagina-1{
 .pagina-1 .meu-nome, .pagina-4 .meu-nome{
     font-size: 22px;
     margin: 20px;
-    color: var(--cor-padrao, #fcf);
+    color: var(--cor-padrao);
     text-align: center;
 }
 
@@ -100,7 +100,7 @@ article.pagina-2{
     background-color:rgb(3, 78, 97);
     height: 600px;
     position: relative;
-    color: var(--cor-padrao, #fcf);
+    color: var(--cor-padrao);
 }
 
 .pagina-2 .container-foto{
@@ -129,9 +129,9 @@ article.pagina-2{
 }
 
 .container-apresentacao .texto-apresentacao{
-    font-size: 20px;
+    font-size: var(--tamanho-da-fonte);
     text-align: justify;
-    text-indent: 20px;
+    text-indent: var(--tamanho-da-fonte);
     padding: 15px 30px;
     width: 100%;
     height: auto;
@@ -150,7 +150,7 @@ article.pagina-2{
 }
 
 .texto-apresentacao, a{
-    color: var(--cor-padrao, #fcf);
+    color: var(--cor-padrao);
     text-decoration: none;
 }
 .btn{
@@ -159,7 +159,7 @@ article.pagina-2{
 }
 
 .btn-portifólio{
-    background-color: var(--cor-padrao, #fcf);
+    background-color: var(--cor-padrao);
     width: auto;
     color:rgb(8, 113, 139);
     padding: 15px;
@@ -182,7 +182,7 @@ article.pagina-2{
     padding:35px 30px;
     font-size: 20px;
     line-height: 30px;
-    color: var(--cor-padrao, #fcf);
+    color: var(--cor-padrao);
     background-color:rgb(8, 113, 139);
     border: solid 5px rgb(218, 92, 92);
     border-radius: 12px;
@@ -214,7 +214,7 @@ article.pagina-3{
 .pagina-3 .meu-servico{
     padding: 30px 0px 0px 30px;
     height: 100px; 
-    color: var(--cor-padrao, #fcf);
+    color: var(--cor-padrao);
 }
 
 
@@ -236,7 +236,7 @@ article.pagina-3{
 }
 
 .container-imagem .imagem-rodape{
-    color: var(--cor-padrao, #fcf);
+    color: var(--cor-padrao);
     margin: 5px;
     padding: 20px 5px 5px 15px;
     height: 100px;
@@ -263,7 +263,7 @@ article.pagina-3{
 
 
 .container-imagem .texto-rodape p{
-    background-color: var(--cor-padrao, #fcf);
+    background-color: var(--cor-padrao);
     color: rgb(3, 78, 97);
     font-size: 20px;
     margin: 20px;
@@ -274,7 +274,7 @@ article.pagina-3{
     text-indent: 20px;
 }
 
-div.vazia{
+div.nada{
     height: 60px;
     background-color:rgb(3, 78, 97);
     }
