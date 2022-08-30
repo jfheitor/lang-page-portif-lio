@@ -7,7 +7,7 @@ Página de portifólio simples, com informaçoes de contatos e método de desenv
 
 ## Prints do projeto
 
-[<img src="./fotos-site/preview-home.png" alt="resolução da tela inicial em vários dispositivos">]
+[<img src="./src/img/fotos-site/preview-home.png" alt="resolução da tela inicial em vários dispositivos">]
 
 ### Descrição detalhada.
 Este projeto foi desenvolvido com a finalidade de exibir informações de contato, como meio de divulgação do meu trabalho.
