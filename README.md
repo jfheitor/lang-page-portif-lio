@@ -21,5 +21,3 @@ Seu commit pode me ajudar!
 ### Dificuldades encontradas
 
 Neste início encontrei um pouco de dificuldade para trabalhar o responsivo.
-=======
->>>>>>> 2e7f1d5eee445969f5bab15486765a95a2cd69b1
