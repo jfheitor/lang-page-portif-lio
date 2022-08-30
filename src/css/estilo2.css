@@ -287,7 +287,7 @@ div.nada{
         text-align: center;
         align-items: center;
     }
-
+    
     .pagina-perfil-lateral{
         left:0;
         width: 25%;
@@ -298,16 +298,26 @@ div.nada{
         right:0;
         width:75%;
         position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 15px;
     }
 
     .pagina-portifolio .portifolio-site{
         height: 250px;
         width: 250px;
-        border-radius: 50%;
+        border-radius: 10%;
         background-color: rgb(218, 92, 92);
+   
     }
 
-    .portifolio-site .px-1{}
+    /* .portifolio-site .px{
+        height: 200px;
+        width: 250px;
+        border-radius: 50%;
+        background-color: rgb(70, 64, 64);
+    } */
     .portifolio-site .px-2{}
     .portifolio-site .px-3{}
     .portifolio-site .px-4{}
