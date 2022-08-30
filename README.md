@@ -2,8 +2,8 @@
 Página de portifólio simples, com informaçoes de contatos e método de desenvolvimento.
 
 ## Tecnologias Utilizadas
-* Html
-* Css
+- Html
+- Css
 
 ## Prints do projeto
 
